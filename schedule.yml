@@ -1,0 +1,123 @@
+title: GDG DevFest Hamburg
+days:
+  - name: Saturday
+    slots:
+      - start: '09:00'
+        end: '09:30'
+        talks:
+          - speaker: ""
+            title: Doors open
+            location: ""
+
+      - start: '09:30'
+        end: '09:45'
+        talks:
+          - speaker: ""
+            title: Welcome
+            location: ""
+
+      - start: '10:00'
+        end: '10:45'
+        talks:
+          - speaker: "Jeremy Abbett"
+            title: Keynote
+            location: ""
+
+      - start: '11:00'
+        end: '11:45'
+        talks:
+          - speaker: "Nenad V. Nikolić"
+            title: "Building Android apps with Scala"
+            location: "Tech talks"
+
+          - speaker: "Ingo Oeser"
+            title: "GO Codelab"
+            location: "Codelabs"
+
+      - start: '12:45'
+        end: '13:45'
+
+        talks:
+          - speaker: ""
+            title: "Lunch"
+            location: ""
+
+      - start: '13:45'
+        end: '14:30'
+        talks:
+          - speaker: "Matthias Friedrich"
+            title: "Android as it gets worn"
+            location: "Tech talks"
+
+          - speaker: "Ingo Oeser"
+            title: "GO Codelab"
+            location: "Codelabs"
+
+      - start: '14:45'
+        end: '15:30'
+        talks:
+          - speaker: "Kjell Otto"
+            title: "generator-angular-fullstack"
+            location: "Tech talks"
+
+          - speaker: "Ingo Oeser"
+            title: "GO Codelab"
+            location: "Codelabs"
+
+      - start: '15:45'
+        end: '16:30'
+        talks:
+          - speaker: "Tobias Schwab"
+            title: "Automation in Go"
+            location: "Tech talks"
+
+          - speaker: "Matthias Friedrich"
+            title: "Android Wear Codelab"
+            location: "Codelabs"
+
+      - start: '16:45'
+        end: '17:30'
+        talks:
+          - speaker: "Marco Pöhler"
+            title: "Polymer"
+            location: "Tech talks"
+
+          - speaker: "Matthias Friedrich"
+            title: "Android Wear Codelab"
+            location: "Codelabs"
+
+      - start: '17:45'
+        end: '18:30'
+        talks:
+          - speaker: "Marco Pöhler"
+            title: "Alberto Ballano"
+            location: ""
+
+      - start: '18:45'
+        end: '19:30'
+        talks:
+          - speaker: "Lee Hambley"
+            title: "Transactional HTTP Tests With Go’s Standard Library"
+            location: "Tech talks"
+
+          - speaker: "Marco Pöhler"
+            title: "Polymer Codelab"
+            location: "Codelabs"
+
+      - start: '19:45'
+        end: '20:30'
+        talks:
+          - speaker: "David Montiel, Yasin Yildirim"
+            title: "Getting started with Material Design on Android"
+            location: "Tech talks"
+
+          - speaker: "Marco Pöhler"
+            title: "Polymer Codelab"
+            location: "Codelabs"
+
+      - start: '20:30'
+        end: 'Open End'
+        talks:
+          - speaker: ""
+            title: "Drinks 'n' Networking"
+            location: ""
