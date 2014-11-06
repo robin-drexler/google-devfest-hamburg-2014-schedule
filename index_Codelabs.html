@@ -1,0 +1,153 @@
+<html manifest="cache.appcache">
+<head>
+  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="content">
+  <header>
+  <h1>GDG DevFest Hamburg</h1>
+</header>
+
+<a href="index.html">Home</a>
+
+<h2>Codelabs</h2>
+
+
+<div class="slot-container">
+  <span class="slot-time-start">11:00</span> -
+  <span class="slot-time-end">11:45</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">GO Codelab</div>
+      <div class="talk-footer">
+        <div class="talk-speaker">Ingo Oeser</div>
+        <div class="talk-location">Codelabs</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">13:45</span> -
+  <span class="slot-time-end">14:30</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">GO Codelab</div>
+      <div class="talk-footer">
+        <div class="talk-speaker">Ingo Oeser</div>
+        <div class="talk-location">Codelabs</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">14:45</span> -
+  <span class="slot-time-end">15:30</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">GO Codelab</div>
+      <div class="talk-footer">
+        <div class="talk-speaker">Ingo Oeser</div>
+        <div class="talk-location">Codelabs</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">15:45</span> -
+  <span class="slot-time-end">16:30</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Android Wear Codelab</div>
+      <div class="talk-footer">
+        <div class="talk-speaker">Matthias Friedrich</div>
+        <div class="talk-location">Codelabs</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">16:45</span> -
+  <span class="slot-time-end">17:30</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Android Wear Codelab</div>
+      <div class="talk-footer">
+        <div class="talk-speaker">Matthias Friedrich</div>
+        <div class="talk-location">Codelabs</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">18:45</span> -
+  <span class="slot-time-end">19:30</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Polymer Codelab</div>
+      <div class="talk-footer">
+        <div class="talk-speaker">Marco Pöhler</div>
+        <div class="talk-location">Codelabs</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">19:45</span> -
+  <span class="slot-time-end">20:30</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Polymer Codelab</div>
+      <div class="talk-footer">
+        <div class="talk-speaker">Marco Pöhler</div>
+        <div class="talk-location">Codelabs</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<script type="application/javascript">
+  (function () {
+    if (!window.applicationCache) {
+      return;
+    }
+    window.addEventListener('load', function (e) {
+      window.applicationCache.addEventListener('updateready', function (e) {
+        if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+          if (confirm('Schedule has updated. Want to reload?')) {
+            window.location.reload();
+          }
+        }
+      }, false);
+
+    }, false);
+  })();
+
+</script>
+</body>
+
+</html>
